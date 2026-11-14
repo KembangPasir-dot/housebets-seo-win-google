@@ -1,9 +1,9 @@
 # Win Google for Housebets — SEO Audit, Keyword Map & 90-Day Plan
 
-**Contest:** Housebets Contest Labs — "Win Google for Housebets" (Growth) · Prizes $15,000 · 191 entered (12 Nov 2026)
-**Date:** 12 November 2026
+**Contest:** Housebets Contest Labs — "Win Google for Housebets" (Growth) · Prizes $15,000 · 215 entered (14 Nov 2026)
+**Date:** 12 November 2026 (research) · **Package updated:** 14 November 2026 (starter-kit formats added: keywords.csv, pages.csv, brand-serp.csv, report.pdf)
 **Author:** Ali Ulin — LinkedIn: https://www.linkedin.com/in/ali-ulin/
-**Scope:** Audit (20) · Keywords and content (15) · Brand searches (20) · Pages (15) · AI search (15) · First 90 days (15) — 100 points, in rubric order. AI-search dataset: `ai-answers.csv` (same package).
+**Scope:** Audit (20) · Keywords and satellites (15) · Win back our brand searches (20) · Pages (15) · First 90 days (15) · AI search (15) — 100 points, in the starter kit's order. AI-search dataset: `ai-answers.csv` (same package).
 
 ## How this report was built — and what it cannot claim
 
@@ -11,7 +11,7 @@ This is an **external audit**. I had no access to Search Console, Google Analyti
 
 Rankings quoted here are **a single-day snapshot from a text-search tool** (5–8 results returned per query), not a screenshot of a live google.com SERP, and geo/personalisation are unknown. Where the tool returned only the top ~4–6 results, "not in the top 10" is **not** established — only "not in the returned results". No search volumes, keyword-difficulty scores, CPCs, or traffic numbers appear anywhere in this report: no keyword tool was available, and inventing them would be fabrication. Target calls (own / compete / ignore) rest on observed SERP composition only.
 
-No AI-engine answer in this report is quoted unless it was actually read from a tool result. Where an engine could not be reached (see §5), that is stated plainly with the method to re-test it. Nothing in this report is copied from any other entrant's submission.
+No AI-engine answer in this report is quoted unless it was actually read from a tool result. Where an engine could not be reached (see §6), that is stated plainly with the method to re-test it. Nothing in this report is copied from any other entrant's submission.
 
 ## Executive summary
 
@@ -22,10 +22,10 @@ Housebets has a real product and a genuinely strong legal/transparency layer —
 3. **Affiliates define the offer — and invent it.** At least six different promo codes and three different welcome bonuses circulate in top results, while hands-on reviewers say no deposit match exists on any house page. The real offers (Duel Mode 50% rakeback, Wave 2 on-chain bonus) have no ranking official page to state them.
 4. **A live mirror splits the brand.** housebets.win serves the same branding with contradictory numbers (bankroll $450K vs $2.91M on .com; contests $18,000/1 entry vs $43,000/497; sportsbook contest $4,000 vs $15,000; no "Win Google" contest at all) and its legal pages already rank. Whether it is official, staging, or third-party is unverified — but it must be consolidated before anything else is built off-domain.
 5. **The winnable keywords are not the head terms.** "Best crypto casino" and "bitcoin casino" are owned by affiliate listicles (Stake #1 almost everywhere). Housebets' ownable ground is its differentiators: the on-chain wallet-history bonus (no incumbent), 50% rakeback via Duel Mode (a priced number with a published formula), a provably-fair verification guide built on its 11 Originals at ~99% RTP, and the USDT/no-KYC long tail.
-6. **AI search is the thinnest surface of all — and the most fixable.** No live AI answer about Housebets could be obtained from public routes on 12 Nov 2026 (see §5 and `ai-answers.csv`). Housebets appears in none of the "best crypto casino" lists the engines draw from. The fix is canonical, citable facts: one page per fact cluster, in tables, plus corroboration on the review domains the engines already cite.
+6. **AI search is the thinnest surface of all — and the most fixable.** No live AI answer about Housebets could be obtained from public routes on 12 Nov 2026 (see §6 and `ai-answers.csv`). Housebets appears in none of the "best crypto casino" lists the engines draw from. The fix is canonical, citable facts: one page per fact cluster, in tables, plus corroboration on the review domains the engines already cite.
 7. **Satellite sites: don't build them.** Google's doorway-abuse policy describes exactly "multiple websites with slight variations… to maximize reach for any specific query". Housebets already has the failure mode in miniature with .win. Fix the duplicate first; build on the main domain and the existing help subdomain instead.
 
-The 90-day plan (§6) sequences this: stop the bleeding first (crawl access, mirror, trust pages), then build the ownable pages, then measure and iterate.
+The 90-day plan (§5) sequences this: stop the bleeding first (crawl access, mirror, trust pages), then build the ownable pages, then measure and iterate.
 
 ---
 
@@ -110,7 +110,7 @@ Housebets already has the problem in miniature: .win is a live second domain wit
 
 ---
 
-## 2. Keywords and content (15 pts)
+## 2. Keywords and satellites (15 pts)
 
 ### 2.1 What the money SERPs actually look like
 
@@ -155,9 +155,13 @@ The pattern is consistent: **the head terms are owned by affiliate comparison li
 4. **USDT casino, network/fees angle (Cluster 5 — COMPETE).** Small SERP (4 results), methodology-led, directly aligned with the on-chain story. Needs verified network/minimum/payout facts first (TRC-20/ERC-20/BEP-20, minimums, fees, measured payout times).
 5. **Get listed in the no-KYC and "best crypto casino" listicles (Clusters 4 + 7 — COMPETE via inclusion).** Housebets matches the no-KYC theme but appears in none of those pages, and has only ~2 tracked community reviews (WagerDB 62.5/100). Inclusion + a credible review footprint is worth more than another on-site listicle the head SERPs will ignore. Do not try to outrank the affiliates with a housebets.com listicle.
 
+### 2.5 Satellites — verdict: don't build
+
+**Recommendation: do not build satellite sites.** Google's spam policies describe doorway abuse as "having multiple websites with slight variations to the URL and home page to maximize their reach for any specific query" — a Housebets satellite network built to rank and funnel to housebets.com matches that example almost word for word. The full reasoning, including the live housebets.win duplicate that already shows the failure mode, is in §1.5. The only safe forms are not satellite sites at all: a single clearly-branded, genuinely useful standalone property with original content; legitimate localised subdirectories on housebets.com itself with real translations and proper hreflang; and the existing help.housebets.com subdomain.
+
 ---
 
-## 3. Brand searches (20 pts)
+## 3. Win back our brand searches (20 pts)
 
 ### 3.1 The headline finding
 
@@ -203,7 +207,7 @@ Beyond Google: the official X account @housebets exists (founder @p0rchy is the 
 | B5 | Public restricted-countries page (see A5) + a withdrawals page (measured payout times, KYC triggers stated plainly) | "Housebets withdrawal", country queries | Ends contradictory third-party lists; answers the payout question with evidence |
 | B6 | Review-footprint work: encourage genuine player reviews on Trustpilot/AskGamblers/WagerDB; respond to complaints publicly (the team already replies on Trustpilot — keep doing it, faster) | "Housebets review" | More tracked reviews raises listicle inclusion and dilutes the negative tail |
 | B7 | Brand protection: challenge the "permanently closed" pages for correction; monitor lookalike domains; enforce Affiliate Terms against branded-keyword bidding and impersonation | All brand queries | Removes false and impersonating results at the source |
-| B8 | Own the name on video/social: an official YouTube channel (launch video, House Games demos, Hubie) and consistent X presence, so the CS2 team and affiliate videos stop defining the brand on video surfaces | "Housebets" (video), YouTube | YouTube is cited in 55% of Google AI Overviews (Rankera) — video presence is also an AI-search asset (§5) |
+| B8 | Own the name on video/social: an official YouTube channel (launch video, House Games demos, Hubie) and consistent X presence, so the CS2 team and affiliate videos stop defining the brand on video surfaces | "Housebets" (video), YouTube | YouTube is cited in 55% of Google AI Overviews (Rankera) — video presence is also an AI-search asset (§6) |
 
 ---
 
@@ -242,7 +246,42 @@ The page plan below is the build list. Each page states its job, target query, a
 
 ---
 
-## 5. AI search (15 pts)
+## 5. First 90 days (15 pts)
+
+### Days 1–30 — stop the bleeding
+
+| Week | Work | Done when |
+|---|---|---|
+| 1 | **Crawl access check.** Server logs / Search Console: does Googlebot get the `/sports` geo-block? Allow-list Googlebot or ship a crawlable sports-content path. Parallel: verify homepage rendering in Search Console (fetch-as-Google). | Written answer: blocked or not; fix shipped or decision recorded |
+| 1 | **Mirror decision.** Establish whether housebets.win is official/staging/third-party; then canonicalise / noindex / redirect it to .com (or formally claim and differentiate it). | .win no longer serves conflicting live numbers |
+| 1–2 | **Trust pages.** Publish RG support-organisation names, RNG lab names/certificates, real 2FA status; reconcile "no KYC" vs KYC-at-cashout in one public place; publish the restricted-countries page (P9). | The exact gaps reviewers flag are closed on-site |
+| 2–3 | **Brand pages, part 1.** Ship P1 (what-is), P6 (legit/trust), P7 (promotions truth page), P8 (login + no-app). | Four ranking pages live for the worst brand queries |
+| 3–4 | **Review footprint.** Respond to open Trustpilot/AskGamblers complaints (already done for some — faster, publicly); invite genuine player reviews; challenge the two "permanently closed" pages for correction. | Complaint response time down; correction requests filed |
+| 4 | **AI-search baseline.** Re-run the 6 questions on all four engines (post-quota-reset) and log verbatim answers in `ai-answers.csv`. | A dated, honest AI baseline exists |
+
+### Days 31–60 — build the ownable pages
+
+| Week | Work | Done when |
+|---|---|---|
+| 5–6 | **Ownable content.** Ship P2 (on-chain bonus), P3 (Duel Mode rakeback), P5 (provably-fair guide), P4 (House Games hub rebuild), P11 (USDT page). | Five pages live for Clusters 1, 2, 3, 5 |
+| 6–7 | **Affiliate inclusion.** Outreach to the listicle owners that dominate Clusters 4 and 7 (bitcoin.com, fairgambling.com, bestbitcoincasino.com, thecasinowizard.com, metbonus.com): factual correction pack + review access, aimed at inclusion in "best crypto casino" and no-KYC lists. | Housebets listed (or a dated "asked, declined" log) |
+| 7–8 | **Blog relaunch + video.** Resume weekly blog (guides first: P5, P12); launch the official YouTube channel (House Games demos, "what is Housebets", Hubie). | Blog current; channel live with ≥4 videos |
+| 8 | **Locales.** Verify hreflang + canonicals per locale; fix or remove locales for prohibited jurisdictions; refresh `/id/` properly or drop it. | Hreflang verified; no locale for a banned country ships thin machine translation |
+
+### Days 61–90 — measure, iterate, compound
+
+| Week | Work | Done when |
+|---|---|---|
+| 9–10 | **Measure what moved.** Search Console: indexed pages, impressions/clicks for brand + Cluster 1/2/3 queries, `/sports` crawl stats. Re-run the 6 AI questions; log deltas in `ai-answers.csv`. | First measurement report with before/after |
+| 10–11 | **Iterate the winners.** Expand whichever of P2/P3/P5 moved first (second guide, comparison tables, translated versions for the locales that convert). Fix whichever brand page still doesn't rank. | One expansion per winning page |
+| 11–12 | **Second inclusion push + review drive.** Second outreach round with the new pages as proof; second review drive. | Inclusion count and review count updated |
+| 12 | **90-day report.** What ranked, what didn't, what the next 90 days should be. Honest numbers only — no invented traffic. | Report delivered to the Housebets team |
+
+**What "win" looks like at day 90 (honest version):** Googlebot can crawl the sportsbook; .win is consolidated; housebets.com ranks for its own brand term and for "Housebets review / bonus / legit" with official pages; the on-chain-bonus and 50%-rakeback pages exist and are the citable source for those queries; the AI re-test shows Housebets mentioned (correctly) where it was absent. Rankings take time and no traffic numbers are promised here — the 90-day deliverable is the pages, the fixes, and the measurement, not a rank guarantee.
+
+---
+
+## 6. AI search (15 pts)
 
 ### 5.1 What was tested — and what was actually obtained
 
@@ -261,7 +300,7 @@ Six questions (4 English, 2 Indonesian) were defined for four engines — ChatGP
 |---|---|---|
 | Perplexity | No | perplexity.ai search pages are JavaScript-rendered; the text fetcher returned no readable text. Needs a live browser or the Perplexity API. |
 | Google AI Overviews | No Overview observed | Across 5 searches ("best crypto casino", "what is Housebets", "is Housebets legit", etc.) no AI Overview block appeared in the returned results — ordinary organic results only. No Overview text or citation list could be quoted. |
-| ChatGPT | No | No public route exists. Only third-party reports of what ChatGPT said (see §5.2). Not invented. |
+| ChatGPT | No | No public route exists. Only third-party reports of what ChatGPT said (see §6.2). Not invented. |
 | Gemini | **Yes — obtained 13 Nov 2026** | All 6 questions answered verbatim on 13 Nov 2026 (quota reset ~16:00 WITA; the model was overloaded, HTTP 503, at 16:06 and 16:17, then answered at 19:50 WITA). Housebets is described in 4 of the 6 answers (mostly correctly — generic Curaçao licence, no licence number, launch year or game count) and is absent from both 'best crypto casino' lists (Stake, BC.Game, BitStarz, Cloudbet named instead). Gemini cited no sources. Full answers in `ai-answers.csv` (date 2026-11-13). |
 
 **Re-test method (for the judges or the Housebets team — 15 minutes):** ask each question verbatim in a fresh chat on ChatGPT / Perplexity / Gemini, and check the live Google SERP for an Overview; record the full answer text plus every source cited, and the date. Do not paraphrase. Repeat each question in a second fresh chat to check stability.
@@ -299,41 +338,6 @@ These facts come from organic search results read on 12 Nov 2026, not from any A
 
 ---
 
-## 6. First 90 days (15 pts)
-
-### Days 1–30 — stop the bleeding
-
-| Week | Work | Done when |
-|---|---|---|
-| 1 | **Crawl access check.** Server logs / Search Console: does Googlebot get the `/sports` geo-block? Allow-list Googlebot or ship a crawlable sports-content path. Parallel: verify homepage rendering in Search Console (fetch-as-Google). | Written answer: blocked or not; fix shipped or decision recorded |
-| 1 | **Mirror decision.** Establish whether housebets.win is official/staging/third-party; then canonicalise / noindex / redirect it to .com (or formally claim and differentiate it). | .win no longer serves conflicting live numbers |
-| 1–2 | **Trust pages.** Publish RG support-organisation names, RNG lab names/certificates, real 2FA status; reconcile "no KYC" vs KYC-at-cashout in one public place; publish the restricted-countries page (P9). | The exact gaps reviewers flag are closed on-site |
-| 2–3 | **Brand pages, part 1.** Ship P1 (what-is), P6 (legit/trust), P7 (promotions truth page), P8 (login + no-app). | Four ranking pages live for the worst brand queries |
-| 3–4 | **Review footprint.** Respond to open Trustpilot/AskGamblers complaints (already done for some — faster, publicly); invite genuine player reviews; challenge the two "permanently closed" pages for correction. | Complaint response time down; correction requests filed |
-| 4 | **AI-search baseline.** Re-run the 6 questions on all four engines (post-quota-reset) and log verbatim answers in `ai-answers.csv`. | A dated, honest AI baseline exists |
-
-### Days 31–60 — build the ownable pages
-
-| Week | Work | Done when |
-|---|---|---|
-| 5–6 | **Ownable content.** Ship P2 (on-chain bonus), P3 (Duel Mode rakeback), P5 (provably-fair guide), P4 (House Games hub rebuild), P11 (USDT page). | Five pages live for Clusters 1, 2, 3, 5 |
-| 6–7 | **Affiliate inclusion.** Outreach to the listicle owners that dominate Clusters 4 and 7 (bitcoin.com, fairgambling.com, bestbitcoincasino.com, thecasinowizard.com, metbonus.com): factual correction pack + review access, aimed at inclusion in "best crypto casino" and no-KYC lists. | Housebets listed (or a dated "asked, declined" log) |
-| 7–8 | **Blog relaunch + video.** Resume weekly blog (guides first: P5, P12); launch the official YouTube channel (House Games demos, "what is Housebets", Hubie). | Blog current; channel live with ≥4 videos |
-| 8 | **Locales.** Verify hreflang + canonicals per locale; fix or remove locales for prohibited jurisdictions; refresh `/id/` properly or drop it. | Hreflang verified; no locale for a banned country ships thin machine translation |
-
-### Days 61–90 — measure, iterate, compound
-
-| Week | Work | Done when |
-|---|---|---|
-| 9–10 | **Measure what moved.** Search Console: indexed pages, impressions/clicks for brand + Cluster 1/2/3 queries, `/sports` crawl stats. Re-run the 6 AI questions; log deltas in `ai-answers.csv`. | First measurement report with before/after |
-| 10–11 | **Iterate the winners.** Expand whichever of P2/P3/P5 moved first (second guide, comparison tables, translated versions for the locales that convert). Fix whichever brand page still doesn't rank. | One expansion per winning page |
-| 11–12 | **Second inclusion push + review drive.** Second outreach round with the new pages as proof; second review drive. | Inclusion count and review count updated |
-| 12 | **90-day report.** What ranked, what didn't, what the next 90 days should be. Honest numbers only — no invented traffic. | Report delivered to the Housebets team |
-
-**What "win" looks like at day 90 (honest version):** Googlebot can crawl the sportsbook; .win is consolidated; housebets.com ranks for its own brand term and for "Housebets review / bonus / legit" with official pages; the on-chain-bonus and 50%-rakeback pages exist and are the citable source for those queries; the AI re-test shows Housebets mentioned (correctly) where it was absent. Rankings take time and no traffic numbers are promised here — the 90-day deliverable is the pages, the fixes, and the measurement, not a rank guarantee.
-
----
-
 ## 7. About you
 
 - **Name:** Ali Ulin
@@ -347,7 +351,7 @@ These facts come from organic search results read on 12 Nov 2026, not from any A
 
 **Methods.** Text fetches of housebets.com pages (homepage, contests, casino, sports, promotions, blog, house-games, legal pages, provably-fair, about, help centre) and housebets.win; robots.txt and sitemap index + sub-sitemaps; web searches for 10 brand queries and 13 money keywords (single-day snapshot, 12 Nov 2026); attempted AI-engine access (Perplexity text fetch, Google search for AI Overview blocks, Gemini API test call). Research notes are kept in the package's `hidden_files/` (site audit, brand search, keyword map, AI search, Gemini quota note).
 
-**What could not be verified (do not treat as findings).** Googlebot's specific treatment of the `/sports` geo-block; indexed-page count (`site:` returned no results — a tool artefact); meta descriptions, canonicals, hreflang, structured data, HTTP status codes, Core Web Vitals, rankings beyond the returned results per query, traffic, search volumes, keyword difficulty; CGA register status (reviewers claim verified Nov 2026 — not checked here); whether housebets.com is on Indonesia's TrustPositif blocklist; whether housebets.win is official/staging/third-party; footer contents; live-account facts (RG tools in settings, 2FA, KYC thresholds, payout speed); contents of the game-catalog and promotions sub-sitemaps; any live AI answer from ChatGPT, Perplexity or Google AI Overviews (see §5.1); Gemini answers were obtained on 13 Nov 2026 (see §5.1).
+**What could not be verified (do not treat as findings).** Googlebot's specific treatment of the `/sports` geo-block; indexed-page count (`site:` returned no results — a tool artefact); meta descriptions, canonicals, hreflang, structured data, HTTP status codes, Core Web Vitals, rankings beyond the returned results per query, traffic, search volumes, keyword difficulty; CGA register status (reviewers claim verified Nov 2026 — not checked here); whether housebets.com is on Indonesia's TrustPositif blocklist; whether housebets.win is official/staging/third-party; footer contents; live-account facts (RG tools in settings, 2FA, KYC thresholds, payout speed); contents of the game-catalog and promotions sub-sitemaps; any live AI answer from ChatGPT, Perplexity or Google AI Overviews (see §6.1); Gemini answers were obtained on 13 Nov 2026 (see §6.1).
 
 **Key sources (all accessed 12 Nov 2026).** housebets.com (homepage, /contests, /contests/seo-growth, /casino, /sports, /promotions, /blog, /house-games, /legal/*, /provably-fair, /about-us/why-housebets, /robots.txt, /sitemap.xml + sub-sitemaps); help.housebets.com; housebets.win (homepage, /contests); cryptocasinoreviews.io/housebets/; casino.clinic/casinos/housebets/; realcasinosbonus.com/casinos/housebets/; cryptotips.com/housebets/; wagerdb.com/casinos/housebets; house-bets.net; eu-housebets.com; housebetcasino.com; fairgambling.com (best crypto casino 2026; Housebets Originals launch news); bitcoin.com/gambling/casino/; bestbitcoincasino.com; dappcrypto.org (Wave 2 on-chain bonus guide); rankera.ai/blog/how-google-ai-overviews-choose-sources/; dgmnews.com/we-asked-ai-best-online-casino/; 5wpr.com/research/crypto-ai-visibility-index-2026/.
 

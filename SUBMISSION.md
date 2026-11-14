@@ -1,14 +1,20 @@
 # Housebets SEO contest — SUBMISSION GUIDE
 
-**Contest:** Housebets Contest Labs — "Win Google for Housebets" (Growth) · Prizes $15,000 · 191 entered
-**Deadline:** kirim sebelum **22 November 2026**. Boleh kirim sampai 3x per hari, yang dinilai yang terbaik — jadi bisa submit sekarang, lalu kirim versi update nanti (misalnya setelah baris Gemini di CSV terisi, ~13 Nov).
+**Contest:** Housebets Contest Labs — "Win Google for Housebets" (Growth) · Prizes $15,000 · 215 entered (14 Nov 2026; was 191 on 12 Nov)
+**Deadline:** kirim sebelum **22 November 2026** (sisa 8 hari 16 jam per 14 Nov 09:27 WITA). Boleh kirim sampai 3x per hari, yang dinilai yang terbaik.
 
 ## Isi paket ini
 
 | File | Isi |
 |---|---|
-| `REPORT.md` | Laporan lengkap (354 baris): 1. Audit, 2. Keywords and content, 3. Brand searches, 4. Pages, 5. AI search, 6. First 90 days, 7. About you, + appendix metode & sumber. |
-| `ai-answers.csv` | Dataset AI search — 24 baris (4 engine × 6 pertanyaan, 12 Nov 2026) dengan kolom persis yang diminta kontes: `engine, question, language, date, answer_summary, housebets_mentioned, correct_about_us, sources_cited, fix`. |
+| `report.pdf` | Laporan lengkap (19 halaman, mengikuti outline starter kit): 1. Audit, 2. Keywords and satellites, 3. Win back our brand searches, 4. Pages, 5. First 90 days, 6. AI search, 7. About you, + appendix metode & sumber. Dibuat dari `REPORT.md` (sumber markdown tetap ada). |
+| `REPORT.md` | Sumber markdown laporan (354 baris). |
+| `keywords.csv` | Keyword map — 20 baris, kolom persis template kit (`keyword, language, market, intent, monthly_volume, difficulty, our_rank_now, target_page, priority, source`). Volume/difficulty/rank dikosongkan jujur (tidak ada tool; tidak dikarang). |
+| `pages.csv` | Page plan — 16 baris, kolom persis template kit (`url, language, issue, evidence, fix, title_now, title_new, meta_now, meta_new, impact, effort`). Title/meta lama ditulis "unverified" (meta tidak terbaca via text fetch); title/meta baru adalah usulan. |
+| `brand-serp.csv` | Brand SERP — 16 baris, kolom persis template kit (`query, language, result_url, owner_type, evidence, risk, action, channel`). |
+| `ai-answers.csv` | Dataset AI search — 24 baris (4 engine × 6 pertanyaan, 12 Nov 2026) dengan kolom persis yang diminta kontes: `engine, question, language, date, answer_summary, housebets_mentioned, correct_about_us, sources_cited, fix`. Baris Gemini terisi jawaban verbatim 13 Nov 2026. |
+| `seo-plan.zip` | Zip submit (≤20 MB): report.pdf, keywords.csv, pages.csv, brand-serp.csv, ai-answers.csv. |
+| `FORM-TEXTS.md` | Teks copy-paste untuk field form: top five fixes (772 karakter), SEO track record (924 karakter, jujur — tanpa klien SEO), tools, LinkedIn. |
 | `SUBMISSION.md` | File ini — panduan submit. |
 
 **Link publik (untuk ditempel ke form submit):**
@@ -20,20 +26,27 @@ File asli ada di `~/workspace/goals/housebets-seo-contest-win-google-for-housebe
 
 ## Cara submit (kamu yang lakukan, dengan akun Housebets-mu)
 
-1. Buka https://www.housebets.com/contests/seo-growth dan sign in dengan akun Housebets kamu (tidak perlu deposit/main).
-2. Buka form submit kontes SEO ini.
-3. Kalau form minta **link**: tempel link repo di atas (https://github.com/KembangPasir-dot/housebets-seo-win-google).
-4. Kalau form minta **upload file**: upload `REPORT.md` dan `ai-answers.csv` dari folder `files/` di atas.
-5. Kalau form ada kolom "About you" / CV / LinkedIn: isi LinkedIn kamu — **https://www.linkedin.com/in/ali-ulin/** (sudah ada juga di bagian 7 laporan). Tidak ada CV — LinkedIn saja sudah memenuhi syarat kontes ("CV or LinkedIn link").
-6. Simpan/kirim, lalu screenshot halaman konfirmasinya buat arsip.
+Form "Send it" (dilihat dari screenshot 14 Nov 2026) minta 8 hal — semua teks
+copy-paste ada di `FORM-TEXTS.md`:
 
-Catatan: detail field form-nya tidak bisa aku lihat dari sini (starter pack dan form ada di balik sign-in Housebets) — cek field-nya waktu kamu buka form, dan pakai aturan di atas (link kalau minta link, file kalau minta file).
+1. **Your plan:** upload `seo-plan.zip` dari folder ini, ATAU tempel link repo
+   https://github.com/KembangPasir-dot/housebets-seo-win-google (terbuka tanpa login).
+2. **Parts you covered:** centang keenam-enamnya (Audit, Keywords, Brand searches,
+   Pages, AI search, First 90 days) — semuanya ada di paket.
+3. **Your top five fixes:** paste dari `FORM-TEXTS.md` §3 (772 karakter).
+4. **Tools you used** (opsional): paste dari `FORM-TEXTS.md` §4.
+5. **Your SEO track record:** paste dari `FORM-TEXTS.md` §5 (924 karakter) —
+   jujur: tanpa klien SEO, bukti kerja adalah audit ini + dua proyek builder.
+6. **Your CV or LinkedIn:** https://www.linkedin.com/in/ali-ulin/
+7. **Proof of a result** (opsional): kosongkan — tidak ada studi kasus SEO.
+8. **Your monthly rate in USD** (opsional): 0 kalau tidak mau kontrak, atau angka
+   kalau mau — keputusan kamu.
 
 ## Yang masih butuh kamu
 
 - **Review laporan ini** sebelum submit — baca, dan bilang kalau ada yang mau diubah.
 - **Submit sendiri** (langkah di atas). Aku tidak menyentuh akun Housebets-mu.
-- **Opsional — lengkapi baris AI search:** baris ChatGPT, Perplexity, dan Google AI Overviews di CSV saat ini jujur tertulis "tidak didapat" (ChatGPT tidak ada jalur publik, Perplexity JS-blocked, tidak ada AI Overview yang muncul). Kalau kamu mau, tanyakan 6 pertanyaan itu langsung di ChatGPT/Perplexity dan cek Google, lalu kirim jawabannya ke aku — aku masukkan ke CSV sebagai update. Baris **Gemini** akan aku isi sendiri setelah kuota reset (~16:00 WITA 13 Nov) — 6 pertanyaan, jawaban verbatim.
+- **Opsional — lengkapi baris AI search:** baris ChatGPT, Perplexity, dan Google AI Overviews di CSV saat ini jujur tertulis "tidak didapat" (ChatGPT tidak ada jalur publik, Perplexity JS-blocked, tidak ada AI Overview yang muncul). Kalau kamu mau, tanyakan 6 pertanyaan itu langsung di ChatGPT/Perplexity dan cek Google, lalu kirim jawabannya ke aku — aku masukkan ke CSV sebagai update. Baris **Gemini sudah terisi 13 Nov 2026** (6 jawaban verbatim, commit 076cead) — paket lengkap.
 - **Jangan salin entri Putri** ("Noble Coyote") — submission ini independen.
 
 ## Yang sudah beres (tidak perlu kamu lakukan)
